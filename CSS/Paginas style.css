@@ -1,44 +1,264 @@
-body{
-    margin: 0.2;  
-}
 header{
     background-color: rgb(225, 138, 95);
-    height: 100%;
-    width: 100%;
+    height:90px;
+    width:1315px;
     border: 5px outset rgba(0, 0, 0, 0.553);   
-    padding: 0.5%;
+    padding: 5px;
     border-radius: 10px;
 }
 .Titulo{ 
     font-size: 40px;
-    margin-top: 0%;
+    margin-top: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    text-shadow: 10px 10px 10px;
+    text-shadow: 10px 10px 10px black;
+    color: white;
+}
+#Principal{
+    text-decoration: none;
+    color: white;
 }
 .Buscador{
     position: absolute;
-    top: 11%;
-    left: 42.5%;
+    top:80px;
+    left:560px;
 }
 .Entrada{
     border-radius: 7px;
-    width: 60%;
-    height: 40%
+    width:150px;
+    height: 20px;
 }
 .Boton{
     border-radius: 7px;
-    width: 25%;
-    height: 30%;
+    width: 80px;
+    height: 25px;
+    position:relative;
+    bottom: 1px;
 }
 h2{
     background-color: rgb(225, 138, 95);
-    width: 40%;
-    font-size: 190%;
+    width: 500px;
+    font-size: 30px;
     text-align: center;
     border-radius: 5px;
     border-style:outset;
     border-color: rgba(0, 0, 0, 0.553);
     position: relative;
-    left: 30%;
+    left: 409px;
+    margin: 20px;
+}
+h3{
+    font-size: 28px;
+    background-color: rgb(114, 114, 114);
+    color: rgb(253, 143, 89);
+    width: 270px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+}
+.Ingredientes{
+    background-color:rgb(225, 138, 95) ;
+    width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    left: 16px;
+    bottom: 142px;
+}
+.Ingre{
+    position: relative;
+    left: 11px;
+    bottom: -7px;
+    margin: 10px;
+
+}
+ul{
+    list-style-type: circle;
+    text-align: justify;
+    width: 230px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Prepa{
+    position: absolute;
+    left:542px;
+    bottom: 382px;
+}
+p{
+    width: 640px;
+    text-align: justify;
+    position: absolute;
+    left: 345px;
+    bottom: 130px;
+}
+.Cacha{
+    position: absolute;
+    bottom: 170px;
+}
+.Maca{
+    left: 345px;
+    bottom: 220px;
+}
+.Pabe{
+    position: absolute;
+    bottom: -85px;
+}
+.Pale{
+    position: absolute;
+    bottom: 250px;
+}
+.Pan{
+    position: absolute;
+    bottom: 80px;
+}
+.Pas{
+    position: absolute;
+    bottom: 170px;
+}
+.Teque{
+    position: absolute;
+    bottom: 75px;
+}
+img{
+    position: absolute;
+    left: 440px;
+    bottom: -190px;
+    width: 475px;
+    height: auto;
+    border-radius: 50px;
+}
+.Cachaimg{
+    position: absolute;
+    bottom: -110px;
+}
+.Pabeimg{
+    position: absolute;
+    bottom: -550px;
+    left: 600px;
+}
+.Paleimg{
+    position: absolute;
+    width: 370px;
+    left: 500px;
+    bottom: -100px;
+}
+.Panimg{
+    position: absolute;
+    left: 450px;
+    bottom: -160px;
+}
+.Pasimg{
+    position: absolute;
+    left: 450px;
+    bottom: -160px;
+}
+.Tequeimg{
+    position: absolute;
+    left: 450px;
+    bottom: -210px;
+}
+.Recetas{
+    background-color:rgb(114, 114, 114);
+    position: absolute;
+    left: 1000px;
+    bottom: -75px;
+    border-style: solid;
+    border-color:rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.Recetas1{
+    background-color:rgb(114, 114, 114);
+    position: absolute;
+    left: 1000px;
+    bottom: -100px;
+    border-style: solid;
+    border-color:rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.list{
+    text-decoration: none;
+    color: rgb(253, 143, 89);
+    position: relative;
+    right: 5px;
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px;
+}
+.list:hover{
+    background-color: rgb(225, 138, 95);
+    color: black;
+    box-shadow: 0px 3px 0px rgb(147, 85, 54);
+    border-radius: 15px;
+}
+.list:active{
+    background-color: rgb(225, 138, 95);
+    color: black;
+    box-shadow: none;
+    border-radius: 15px;
+}
+h4{
+    font-size: 105%;
+    margin: 4%;
+}
+.Ingredientes_Maca{
+    background-color:rgb(225, 138, 95) ;
+    width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    left: 16px;
+    bottom: -19px;   
+}
+.Ingredientes_Pabe{
+    background-color:rgb(225, 138, 95) ;
+    width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    left: 16px;
+    bottom: 70px;   
+}
+.Ingredientes_Pale{
+    background-color:rgb(225, 138, 95) ;
+    width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    left: 16px;
+    bottom: 215px;   
+}
+.Ingredientes_Pan{
+    background-color:rgb(225, 138, 95) ;
+    width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    left: 16px;
+    bottom: 89px;   
+}
+.Ingredientes_Pas{
+    background-color:rgb(225, 138, 95) ;
+    width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    left: 16px;
+    bottom: 89px;   
+}
+.Ingredientes_Teque{
+    background-color:rgb(225, 138, 95) ;
+    width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    left: 16px;
+    bottom: 100px;   
 }
